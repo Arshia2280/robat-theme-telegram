@@ -2,7 +2,7 @@ import { Telegraf, Markup } from "telegraf";
 import { message } from "telegraf/filters";
 import LocalSession from "telegraf-session-local";
 const startBot = () => {
-  const bot = new Telegraf("Your bot token");
+  const bot = new Telegraf("8323429167:AAH1SrKF5q3beI45q1rkNuNMZGJ_rFabYYs");
   bot.use((new LocalSession({ database: 'arshia_qr.json' })).middleware());
 
   const panelAd = Markup.keyboard([['پنل ادمینی']]).resize();
